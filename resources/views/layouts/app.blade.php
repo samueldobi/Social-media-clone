@@ -29,7 +29,7 @@
                     <ul class="navbar-nav me-auto">
                         @auth
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('posts.index') }}">Feed</a>
+                                <a class="nav-link" href="{{ route('posts.index') }}">Explore</a>
                             </li>
                         @endauth
                     </ul>
